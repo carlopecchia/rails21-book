@@ -1,14 +1,14 @@
 ## session(:on)
 
-Maybe you don't know this anymore, but in Rails is possible to turn off sessions:
+Probabilmente non ne siete a conoscenza, ma in Rails è possibile disattivare le sessioni:
 
 	class ApplicationController < ActionController::Base
 	  session :off
 	end
 
-Note in my example, I'm turning of session for all controllers (**ApplicationController**), but I could also do for a single controller.
+Da notare che nell'esempio sono state disattivate le sessioni per tutti i controller (**ApplicationController**), possiamo fare la stessa cosa per un singolo controller.
 
-But if i want one controller to turn on sessions only for it ? In rails 2.1, the method accepts the **:on** option, this way:
+Ma se volessi abilitare le sessioni per un solo controller? In Rails 2.1 il metodo accetta l'opzione **:on**:
 
 	class UsersController < ApplicationController
 	  session :on

@@ -1,7 +1,7 @@
 ## action\_name
 
-Now, to know which view was called during running time of your view, we just use the **action\_name** method:
+Per conoscere da quale action è stata chiamata la vostra view, ora potete semplicemente usare il metodo  **action\_name** :
 
 	<%= action_name %>
 
-The return value will be the same as using **params[:action]**, but in a more elegant way.
+Il valore restituito sarà lo stesso restituito da  **params[:action]**, ma il codice risulterà più elegante.

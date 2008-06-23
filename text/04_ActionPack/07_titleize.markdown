@@ -1,11 +1,11 @@
-## Applying title formatting in strings
+## Stringhe formattate come titolo
 
-There was a bug when using **String#titleize** method in a string containing 's . The bug made the method return the 's in uppercase. See an example:
+Il metodo **String#titleize** conteneva un bug quando lo si applicava a stringhe contenenti 's. Questo bug faceva si che il metodo ritornasse 's maiuscolo. Vediamo l'esempio:
 
 	>> "brando’s blog".titleize
 	=> "Brando’S Blog"
-	
-See the same example, but with the bug fixed:
+
+Vediamo lo stesso esempio, dopo la correzione del bug:
 
 	>> "brando’s blog".titleize
 	=> "Brando’s Blog"

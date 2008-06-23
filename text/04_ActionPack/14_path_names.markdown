@@ -1,9 +1,9 @@
 ## Path Names
 
-My blog readers (http://www.nomedojogo.com) should know my **Custom Resource Name** plugin. I think it'll die very soon... :(
+I lettori del mio blog (http://www.nomedojogo.com) conosceranno il mio plugin **Custom Resource Name**. Penso che morirà presto... :( 
 
-In rails you already could include the option **:as** in your routes (something I implemented in my plugin to keep compatibility), now you will also have the **:path\_names** option to change the name of your **actions**.
+In rails era possibile includere l'opzione **:as** nelle route (cosa che ho implemetato nel mio plugin per mantenere la compatibilità), ed ora è possibile specificare l'opzione **:path\_names** per personalizzare il nome delle **action**.
 	
 	map.resource :schools, :as => 'escolas', :path_names => { :new => 'nova' }
 
-Of course, my plugin will keep being usefull for users of earlier Rails versions.
+Comunque, il mio plugin continuerà ad essere utile a coloro che utilizzano una versione precedente di Rails.

@@ -2,8 +2,6 @@
 
 Il metodo **auto\_link** prende un qualunque testo come parametro, e se in questo testo sono presenti indirizzi realtivi as e-mail o siti internet, restituisce lo stesso testo ma con i link.
 
-[TODO: è correttp l'esempio?]
-
 Ad esempio:
 
 	auto_link("Visita questo sito ora: http://www.rubyonrails.com")
