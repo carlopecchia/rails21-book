@@ -16,8 +16,7 @@ Nel caso in cui si utilizzi l'opzione **:default**, dovrebbe essere visualizzato
 
 ### Il metodo formatted_offset
 
-Il metodo **formatted\_offset** è stato incluso nelle classi **Time** e **DateTime**. Questo metodo restituisce la differenza tra il nostro **TimeZone** e UTC, nel formato **+HH:MM**. Ad esempio, se ci troviamo in Brasile, la differenza restituita dal metodo sarà una stringa uguale a **"-03:00″**.
-[TODO differenza italia da UTC? -1/+1?]
+Il metodo **formatted\_offset** è stato incluso nelle classi **Time** e **DateTime**. Questo metodo restituisce la differenza tra il nostro **TimeZone** e UTC, nel formato **+HH:MM**. Ad esempio, se ci troviamo in Italia, la differenza restituita dal metodo sarà una stringa uguale a **"+01:00″**.
 Vediamo alcuni esempi:
 
 Calcolare la differenza da una data (DateTime):

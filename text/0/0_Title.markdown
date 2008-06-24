@@ -35,7 +35,7 @@ Questo testo è stato tradotto in italiano grazie alla collaborazione dei membri
 * [:p@r](http://www.pro-ruby.net)
 
 Il lavoro di coordinamento è stato effettuato da Carlo Pecchia, Andrea Reginato e Mirco Veltri.
-Si ringrazia inoltre, per il supporto e le revisioni: Massimilano Giroldi (TBD), 
+Si ringrazia inoltre, per il supporto e le revisioni: Massimilano Giroldi (TODO), Andrea Franz (TODO), 
 
 Si riportano nel seguito i contributi di ognuno.
 
@@ -54,7 +54,7 @@ Capitoli 1, 13
 Capitoli 1, 10, 11, 12
 
  
-**Piero Bozzolo** - []()
+**Piero Bozzolo** - [http://cookedapple.net](http://cookedapple.net)
  
 Capitolo 5
 
@@ -78,7 +78,3 @@ Capitolo 9
  
 Capitolo 14
  
-
-**Andrea Franz** -[]()
-
-Capitoli 3, 4
