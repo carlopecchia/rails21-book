@@ -2,7 +2,7 @@
 
 ### number\_to\_currency
 
-Il metodo **number\_to\_currency** ora accetta l'opzione **:format** come parametro, quindi è possibile formattare il valore di ritorno del metodo. Nelle versioni passate, quando si doveva formattare la valuta locale, bisognava includere uno spazio davanti l'opzione **:unit** per avere il formato dell'output corretto. Osservare gli esempi:
+Il metodo **number\_to\_currency** ora accetta l'opzione **:format** come parametro, quindi è possibile formattare il valore di ritorno del metodo. Nelle versioni passate, quando si doveva formattare la valuta locale, bisognava includere uno spazio davanti all'opzione **:unit** per avere il formato dell'output corretto. Osservare gli esempi:
 
 	# € è il simbolo dell'Euro
 	number_to_currency(9.99, :separator => ",", :delimiter => ".", :unit => "€")

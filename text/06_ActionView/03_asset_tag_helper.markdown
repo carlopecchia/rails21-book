@@ -2,9 +2,9 @@
 
 ### register\_javascript\_expansion
 
-Questo metodo registra uno o più file javascript per essere inclusi quando un simbolo, definito dal programmatore, è dato come parametro al metodo **javascript\_include\_tag**. L'idea è di chiamare questo metodo dentro il file  **init.rb** del plugin, per registrare i file javascript che il plugin mette in **public/javascripts**. Ecco come funziona:
+Questo metodo registra uno o più file javascript per essere inclusi quando un simbolo definito dal programmatore è passato come parametro al metodo **javascript\_include\_tag**. L'idea è di chiamare questo metodo all'interno del file  **init.rb** del plugin, per registrare i file javascript che il plugin mette in **public/javascripts**. Ecco come funziona:
 
-	# Nel file the init.rb
+	# Nel file init.rb
 	ActionView::Helpers::AssetTagHelper.register_javascript_expansion 
 		:monkey => ["head", "body", "tail"] 
 

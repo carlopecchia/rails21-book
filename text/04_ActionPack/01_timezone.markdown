@@ -12,15 +12,15 @@ Al metodo **time\_zone\_select** è stata aggiunta una nuova opzione, ora potete
 	time_zone_select( "user", 'time_zone', TimeZone.us_zones, 
 		:default => "Pacific Time (US & Canada)")
 
-Nel caso in cui utilizziamo l'opzione **:default**, dovrebbe essere visualizzato il **TimeZone** già selezionato.
+Nel caso in cui si utilizzi l'opzione **:default**, dovrebbe essere visualizzato il **TimeZone** già selezionato.
 
 ### Il metodo formatted_offset
 
 Il metodo **formatted\_offset** è stato incluso nelle classi **Time** e **DateTime**. Questo metodo restituisce la differenza tra il nostro **TimeZone** e UTC, nel formato **+HH:MM**. Ad esempio, se ci troviamo in Brasile, la differenza restituita dal metodo sarà una stringa uguale a **"-03:00″**.
-
+[TODO differenza italia da UTC? -1/+1?]
 Vediamo alcuni esempi:
 
-Calcolare la differenza da un data (DateTime):
+Calcolare la differenza da una data (DateTime):
 
 	datetime = DateTime.civil(2000, 1, 1, 0, 0, 0, Rational(-6, 24))
 	datetime.formatted_offset         # => "-06:00″
@@ -35,7 +35,7 @@ Da notare che questo metodo restituisce una stringa (**string**), che può esser
 
 ### Il metodo with\_env\_tz
 
-Il metodo **with\_env\_tz** ci consente di scrivere test realtivi a fusi orari differenti con molta semplicità:
+Il metodo **with\_env\_tz** ci consente di scrivere test relativi a fusi orari differenti con molta semplicità:
 
 	def test_local_offset
 	  with_env_tz 'US/Eastern' do
@@ -69,8 +69,8 @@ Il metodo **TimeZone#now** è stato modificato per ritornare un oggetto **Active
 
 ### Compare\_with\_coercion
 
-Il metodo **compare\_with\_coercion** (e il suo alias <=>) è stato inserito nelle classi **Time** e **DateTime** rendendo possibile effettuare comparazioni cronologiche tra le classi **Time** e **DateTime**, e le instanze di  **ActiveSupport::TimeWithZone**.
-Per comprendere meglio, diamo un'occhita a questo esempio (i risultati di ogni linea sono contenuti nei commenti):
+Il metodo **compare\_with\_coercion** (e il suo alias <=>) è stato inserito nelle classi **Time** e **DateTime** rendendo possibile effettuare comparazioni cronologiche tra le classi **Time** e **DateTime** e le instanze di **ActiveSupport::TimeWithZone**.
+Per comprendere meglio, diamo un'occhiata a questo esempio (i risultati di ogni linea sono contenuti nei commenti):
 
 	Time.utc(2000) <=> Time.utc(1999, 12, 31, 23, 59, 59, 999) # 1
 	Time.utc(2000) <=> Time.utc(2000, 1, 1, 0, 0, 0) # 0

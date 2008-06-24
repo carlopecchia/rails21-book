@@ -9,7 +9,7 @@ Una prassi molto comune nello sviluppo con Rails è l'utilizzo di **partials** p
 
 Un **Partial** è un frammento di codice (un template). Utilizzare i **partial** offre il vantaggio di evitare un'inutile ripetizione del codice. Utilizzare un **partial** è molto semplice, potete iniziare con qualcosa come: **render :partial => "name"**. Successivamente, dovete creare un file con il nome del vostro **partial** anteponendovi un trattino basso (underscore). Tutto qui.
 
-Il codice che abbiamo appena visto mostra come abbiamo sempre utilizzato i **partials**, ma in questa nuova versione di rails possiamo fare la stessa cosa, in modo diverso, come in:
+Il codice che abbiamo appena visto mostra come abbiamo sempre utilizzato i **partials**, ma in questa nuova versione di Rails possiamo fare la stessa cosa, in modo diverso, come in:
 
 	<% form_for(@user) do |f| %>
 		<%= render :partial => f %>

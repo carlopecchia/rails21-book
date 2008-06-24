@@ -20,7 +20,7 @@ In un file *index.atom.builder*:
 	  end
 	end
 
-Che cos'è un feed Atom ? Atom è il nome di un insieme di stili e metadati basati su XML. In altre parole è un protocollo per pubblicare contenuti e relativi aggiornamenti su internet, come in un blog as esempio. I feed sono sono sempre pubblicati in XML, e Atom viene identificato con un media type application/atom+xml.
+Che cos'è un feed Atom ? Atom è il nome di un insieme di stili e metadati basati su XML. In altre parole è un protocollo per pubblicare contenuti e relativi aggiornamenti su internet, come in un blog ad esempio. I feed sono sono sempre pubblicati in XML e Atom viene identificato con un media type application/atom+xml.
 
 Nella prima versione di Rails 2.0 questo metodo accettava parametri come **:language**, **:root_url** e **:url**, potete ottenere altre informazioni a riguardo nella documentazione di Rails. Con i miglioramenti introdotti, possiamo includere nuovi namespace nel primo elemento del feed (root). Ad esempio:
 

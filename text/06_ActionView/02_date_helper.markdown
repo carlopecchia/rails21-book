@@ -1,6 +1,6 @@
 ## ActionView::Helpers::DateHelper
 
-Ora, tutti questi metodi del moduli che trattano le date (**date\_select**, **time\_select**, **select\_datetime**, ecc.) accettano le opzioni **HTML**. Osservare l'esempio che usa **date\_select**
+Ora, tutti questi metodi dei moduli che trattano le date (**date\_select**, **time\_select**, **select\_datetime**, ecc.) accettano le opzioni **HTML**. Osservare l'esempio che usa **date\_select**
 
 	<%= date_select 'item','happening', :order => [:day], :class => 'foobar'%>
 	

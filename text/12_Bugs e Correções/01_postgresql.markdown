@@ -45,4 +45,4 @@ Notate che stiamo creando una colonna con **:precision => 6** e **:scale => 2**.
 	</tr>
 </table>
 
-Guardate la colonna "cost" che abbiamo appena creato. E' semplicemente **numeric**, mentre volevamo ottenere una colonna simile a "price", che come possiamo vedere sopra è un **numeric(6,2)**. Con Rails 2.1 questo errore non c'è più, e la colonna verrà creata correttamente.   
+Guardate la colonna "cost" che abbiamo appena creato. E' semplicemente **numeric**, mentre volevamo ottenere una colonna simile a "price", che come possiamo vedere sopra è un **numeric(6,2)**. Con Rails 2.1 questo errore non c'è più e la colonna verrà creata correttamente.   

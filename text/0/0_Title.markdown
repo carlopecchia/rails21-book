@@ -10,7 +10,7 @@ Secondo David le principali novità di questa versione riguardano:
 * Dirty tracking
 * Dipendenze fra le gem
 * Named scope
-* Migrations basate sul tempo (UTC)
+* Migrations basate sul timestamp (UTC)
 * Caching migliorato
  
 Per avviare l'installazione della nuova versione è sufficiente il consueto comando:
@@ -28,42 +28,57 @@ A tutta la comunità brasiliana di Ruby on Rails, che ha collaborato direttament
  
 ## Traduttori della versione in italiano
  
-Questo testo è stato tradotto in italiano grazie alla collaborazione dei membri della comunità Italiana di Ruby [ruby-it.org](http://www.ruby-it.org) + [:p@r](http://www.pro-ruby.net)
- 
+Questo testo è stato tradotto in italiano grazie alla collaborazione dei membri della comunità Italiana di Ruby, della quale riportiamo i link di riferimento:
+
+* [The Ruby Mine](http://www.therubymine.com)
+* [ruby-it.org](http://www.ruby-it.org) 
+* [:p@r](http://www.pro-ruby.net)
+
+Il lavoro di coordinamento è stato effettuato da Carlo Pecchia, Andrea Reginato e Mirco Veltri.
+Si ringrazia inoltre, per il supporto e le revisioni: Massimilano Giroldi (TBD), 
+
+Si riportano nel seguito i contributi di ognuno.
+
 **Carlo Pecchia** - [http://carlopecchia.eu](http://carlopecchia.ru)
  
-Capitoli 2
+Capitoli 1, 2, 3, 4
+
+
+**Andrea Reginato** - []()
+ 
+Capitoli 1, 13
+
  
 **Mirco Veltri** - []()
  
-Capitoli 10-12
+Capitoli 1, 10, 11, 12
+
  
 **Piero Bozzolo** - []()
  
 Capitolo 5
- 
-**Luigi Maselli** - []()
- 
-Capitolo 6
- 
-**Oscar Del Ben** - []()
- 
-Capitolo 6
+
  
 **Luigi Maselli** - [http://grigio.org](http://grigio.org)
  
-Capitolo 7
+Capitoli 6, 7
+
+ 
+**Oscar Del Ben** - []()
+ 
+Capitolo 8
+
  
 **Luca Sabato** - [http://sabatia.it](http://sabatia.it)
  
-Capitolo 8
- 
-**Andrea Reginato** - []()
- 
-Capitolo 13
- 
+Capitolo 9
+
+  
 **Carmine Moleti** - []()
  
 Capitolo 14
  
-Si ringrazia inoltre, per il supporto e le revisioni: Massimilano Giroldi (), 
+
+**Andrea Franz** -[]()
+
+Capitoli 3, 4

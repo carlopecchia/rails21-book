@@ -1,4 +1,4 @@
 # ActiveSupport
 
-ActiveSupport è una collezioni di utili classi ed estensioni alle librerie base che viene considerata utile per lo sviluppo delle applicazioni in Ruby on Rails.
+ActiveSupport è una collezione di utili classi ed estensioni alle librerie base che viene considerata utile per lo sviluppo delle applicazioni in Ruby on Rails.
 (wikipedia)

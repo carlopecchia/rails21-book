@@ -2,7 +2,7 @@
 
 ### Map.root
 Ora quando si usa **map.root** si può essere più **DRY** usando gli alias.
-Nelle precedenti versioni di rails si faceva qualcosa del tipo:
+Nelle precedenti versioni di Rails si faceva qualcosa del tipo:
 
 	map.new_session :controller => 'sessions', :action => 'new'
 	map.root :controller => 'sessions', :action => 'new'
@@ -13,9 +13,9 @@ Ora si può fare in questo modo:
 	map.root :new_session
 	
 ### Riconoscimento delle route
-La vecchia implementazione controllava tutte le route, una per una e spesso impiegava molto tempo. È stata sviluppata una nuova e più efficiente implementazione. Viene creato un albero di route e il riconoscimento è fatto tramite i prefissi, saltando le route simili. In questo modo il tempo di riconoscimento viene ridotto di circa 2,7 volte.
+La vecchia implementazione controllava tutte le route, una per una e spesso impiegava molto tempo. È stata sviluppata una nuova e più efficiente implementazione. Viene creato un albero di route ed il riconoscimento è fatto tramite i prefissi, saltando le route simili. In questo modo il tempo di riconoscimento viene ridotto di circa 2,7 volte.
 
-Tutta la nuova implementazione è nel file **recognition\_optimisation.rb** e il suo funzionamento dettegliato è ben spiegato nei commenti. Per maggiori informazioni riguardo la sua implementazione si guardi la documentazione nel codice sorgente stesso.
+Tutta la nuova implementazione è nel file **recognition\_optimisation.rb** ed il suo funzionamento dettagliato è ben spiegato nei commenti. Per maggiori informazioni riguardo la sua implementazione si guardi la documentazione nel codice sorgente stesso.
 
 ### Assert_routing
 

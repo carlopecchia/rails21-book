@@ -1,4 +1,4 @@
 # ActionPack
 
 ActionPack raccoglie due librerie: ActionView (generazione delle viste per l'utente finale, come HTML, XML, JavaScript, etc) e ActionController (controllo del flusso dell'applicazione).
-(adattato da wikipedia)
+(Adattato da wikipedia)

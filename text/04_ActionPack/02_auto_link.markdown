@@ -1,11 +1,11 @@
 ## Auto Link
 
-Il metodo **auto\_link** prende un qualunque testo come parametro, e se in questo testo sono presenti indirizzi realtivi as e-mail o siti internet, restituisce lo stesso testo ma con i link.
+Il metodo **auto\_link** prende un qualunque testo come parametro e se in questo testo sono presenti indirizzi realtivi ad e-mail o siti internet, restituisce lo stesso testo ma con i link.
 
 Ad esempio:
 
 	auto_link("Visita questo sito ora: http://www.rubyonrails.com")
-	# => Visita questo sito ora: http://www.rubyonrails.com
+	# => Visita questo sito ora: <a href="http://www.rubyonrails.com">http://www.rubyonrails.com</a>
 
 Alcuni siti, come Amazon, utilizzano il simbolo "=" nei loro URL. Questo metodo non riconosce quel simbolo. Ecco come si comporta in questo caso:
 

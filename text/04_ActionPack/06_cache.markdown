@@ -2,7 +2,7 @@
 
 Ora tutti i metodi **fragment\_cache\_key** restituiscono per default il namespace 'view/' come prefisso.
 
-Tutte le modalità di cache sono state rimosse da **ActionController::Caching::Fragments::*** ed ora si possono trovare in **ActiveSupport::Cache::***. In questo caso, se avete utilizzato, ad esempio, un metodo di caching come **ActionController::Caching::Fragments::MemoryStore**, dovrete cambiare ogni riferimento in **ActiveSupport::Cache::MemoryStore**.
+Tutte le modalità di cache sono state rimosse da **ActionController::Caching::Fragments::** ed ora si possono trovare in **ActiveSupport::Cache::**. In questo caso, se avete utilizzato, ad esempio, un metodo di caching come **ActionController::Caching::Fragments::MemoryStore**, dovrete cambiare ogni riferimento in **ActiveSupport::Cache::MemoryStore**.
 
 **ActionController::Base.fragment\_cache\_store** è stato rimosso e **ActionController::Base.cache\_store** ha preso il suo posto.
 
@@ -19,7 +19,7 @@ In **ActiveRecord::Base** è stato incluso il metodo **cache\_key** per facilita
 
 Sono stati inclusi i metodi **ActiveSupport::Gzip.decompress/compress** per facilitare l'uso del wrapper di **Zlib**.
 
-Adesso potete utilizzare **config.cache\_store** tra le opzioni di ambiente (environment) per specificare la modalità di caching di default. E' bene notare che se la directory **tmp/cache** esiste, allora il default è **FileStore**; altrimeti viene utilizzato **MemoryStore**. Potete configurare secondo le seguenti modalità:
+Adesso potete utilizzare **config.cache\_store** tra le opzioni di ambiente (environment) per specificare la modalità di caching di default. E' bene notare che se la directory **tmp/cache** esiste, allora il default è **FileStore**; altrimenti viene utilizzato **MemoryStore**. Potete configurare secondo le seguenti modalità:
 
 	config.cache_store = :memory_store
 	config.cache_store = :file_store, "/path/to/cache/directory"

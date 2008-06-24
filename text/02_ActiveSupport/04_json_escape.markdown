@@ -1,6 +1,6 @@
 ## JSON escape
 
-Il metodo **json\_escape** funziona come **html\_escape**. E' molto utile quando vogliamo mostrare stringhe **JSON** in una pagine **HTML**, per esempio in fase di documentazione.
+Il metodo **json\_escape** funziona come **html\_escape**. E' molto utile quando vogliamo mostrare stringhe **JSON** in una pagina **HTML**, per esempio in fase di documentazione.
 
 	puts json_escape("is a > 0 & a < 10?")
 	# => is a \u003E 0 \u0026 a \u003C 10?

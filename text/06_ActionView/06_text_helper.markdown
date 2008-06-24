@@ -2,7 +2,7 @@
 
 ### excerpt
 
-Il metodo **excerpt** è un helper che trova una parola dentro un testo e restituisce un'abbreviazione di quel testo con il numero di caratteri, dati come parametro, prima e dopo la parola. Se necessario verranno aggiunti "…". Esempio:
+Il metodo **excerpt** è un helper che trova una parola all'interno di un testo e restituisce un'abbreviazione di quel testo con il numero di caratteri, dati come parametro, prima e dopo la parola. Se necessario verranno aggiunti "…". Esempio:
 
 	excerpt('This is an example', 'an', 5)
 	# => "…s is an examp…"
@@ -14,7 +14,7 @@ Il problema è che è sbagliato. Il metodo ha restituito 6 caratteri e non 5. Qu
 	
 ###simple\_format
 
-Il metodo **simple\_format** principalmente riceve come parametro un qualsiasi testo e lo formatta in modo semplice in **HTML**. Prende il testo e sostituisce a capo (\n) con il tag **HTML** "< br />" e quando si hanno due a capo consecutivi (\n\n) separa il testo nel paragrafo con il tag "< p>".
+Il metodo **simple\_format** basilarmente riceve come parametro un qualsiasi testo e lo formatta in modo semplice in **HTML**. Prende il testo e sostituisce a capo (\n) con il tag **HTML** "< br />" e quando si hanno due a capo consecutivi (\n\n) separa il testo nel paragrafo con il tag "< p>".
 
 In Rails 2.1 questo metodo supporta ulteriori parametri. Oltre al testo, si può specificare quali attributi **HTML** vogliamo che il tag "< p>" abbia. Esempio: 
 
