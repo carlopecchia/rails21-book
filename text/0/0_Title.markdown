@@ -35,7 +35,7 @@ Questo testo è stato tradotto in italiano grazie alla collaborazione dei membri
 * [:p@r](http://www.pro-ruby.net)
 
 Il lavoro di coordinamento è stato effettuato da Carlo Pecchia, Andrea Reginato e Mirco Veltri.
-Si ringrazia inoltre, per il supporto e le revisioni: Massimilano Giroldi (TODO), Andrea Franz (TODO), 
+Si ringrazia inoltre, per il supporto e le revisioni: Massimilano Giroldi, Andrea Franz. 
 
 Si riportano nel seguito i contributi di ognuno.
 
@@ -49,7 +49,7 @@ Capitoli 1, 2, 3, 4
 Capitoli 1, 13
 
  
-**Mirco Veltri** - []()
+**Mirco Veltri**
  
 Capitoli 1, 10, 11, 12
 
@@ -64,7 +64,7 @@ Capitolo 5
 Capitoli 6, 7
 
  
-**Oscar Del Ben** - []()
+**Oscar Del Ben**
  
 Capitolo 8
 
@@ -74,7 +74,7 @@ Capitolo 8
 Capitolo 9
 
   
-**Carmine Moleti** - []()
- 
+**Carmine Moleti**
+
 Capitolo 14
  
