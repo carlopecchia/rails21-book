@@ -44,7 +44,7 @@ Si riportano nel seguito i contributi di ognuno.
 Capitoli 1, 2, 3, 4
 
 
-**Andrea Reginato** - []()
+**Andrea Reginato** - [http://www.therubymine.com](http://www.therubymine.com)
  
 Capitoli 1, 13
 
