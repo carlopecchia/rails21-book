@@ -35,7 +35,7 @@ Questo testo è stato tradotto in italiano grazie alla collaborazione dei membri
 * [:p@r](http://www.pro-ruby.net)
 
 Il lavoro di coordinamento è stato effettuato da Carlo Pecchia, Andrea Reginato e Mirco Veltri.
-Si ringrazia inoltre, per il supporto e le revisioni: Massimilano Giroldi, Andrea Franz. 
+Si ringrazia inoltre, per il supporto e le revisioni: Massimiliano Giroldi, Andrea Franz. 
 
 Si riportano nel seguito i contributi di ognuno.
 
